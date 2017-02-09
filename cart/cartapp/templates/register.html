@@ -1,18 +1,18 @@
-{% extends "base.html" %}
+{% extends "base1.html" %}
 {% block content %}
 {% load staticfiles %}
-    			{% comment %}<div id="content" class="clearfix">
+    			<div id="content" class="clearfix">
 				<div id="breadcrumb" class="breadcrumb">
 					<div itemprop="breadcrumb" class="container">
 						<div class="row">
 							<div class="col-md-24">
-								<a href="index-2.html" class="homepage-link" title="Back to the frontpage">Home</a>
+								<a href="/index" class="homepage-link" title="Back to the frontpage">Home</a>
 								<span>/</span>
 								<span class="page-title">Create Account</span>
 							</div>
 						</div>
 					</div>
-				</div>{% endcomment %}
+				</div>
 				<section class="content">
 					<div class="container">
 						<div class="row">
@@ -23,9 +23,10 @@
 								<form method="post" action="http://demo.designshopify.com/account" id="create_customer" accept-charset="UTF-8">
 									<input value="create_customer" name="form_type" type="hidden"><input name="utf8" value="✓" type="hidden">
 									<ul id="register-form" class="row list-unstyled">
-										<li id="first_namef">
-										<label class="control-label" for="first_name">First Name</label>
-										<input name="customer[first_name]" id="first_name" class="form-control" type="text">
+                                        <li class="clearfix"></li>
+										<li id="first">
+										<label class="control-label" for="first">First Name</label>
+										<input name="customer[first]" id="first" class="form-control" type="text">
 										</li>
 										<li class="clearfix"></li>
 										<li id="last_namef">
@@ -34,15 +35,39 @@
 										</li>
 										<li class="clearfix"></li>
 										<li id="emailf" class="">
-										<label class="control-label" for="email">Your Email <span class="req">*</span></label>
+										<label class="control-label" for="email">Email <span class="req">*</span></label>
 										<input name="customer[email]" id="email" class="form-control " type="email">
 										</li>
-										<li class="clearfix"></li>
+                                        <li class="clearfix"></li>
 										<li id="passwordf" class="">
-										<label class="control-label" for="password">Your Password <span class="req">*</span></label>
+										<label class="control-label" for="password">Password <span class="req">*</span></label>
 										<input value="" name="customer[password]" id="password" class="form-control password" type="password">
 										</li>
+                                        <li class="clearfix"></li>
+										<li id="address" class="">
+										<label class="control-label" for="address">Address <span class="req">*</span></label>
+										<input name="customer[address]" id="address" class="form-control " type="address">
+										</li>
+                                        <li class="clearfix"></li>
+										<li id="phone" class="">
+										<label class="control-label" for="phone">Contact Number <span class="req">*</span></label>
+										<input name="customer[phone]" id="phone" class="form-control " type="phone">
+										</li>
 										<li class="clearfix"></li>
+                                        <li id="city" class="">
+										<label class="control-label" for="city">City <span class="req">*</span></label>
+										<input name="customer[city]" id="city" class="form-control " type="city">
+										</li>
+                                        <li class="clearfix"></li>
+                                        <li id="Zipcode" class="">
+										<label class="control-label" for="address">Zipcode <span class="req">*</span></label>
+										<input name="customer[Zipcode]" id="Zipcode" class="form-control " type="Zipcode">
+										</li>
+                                         <li class="clearfix"></li>
+                                        <li id="country" class="">
+										<label class="control-label" for="country">Country <span class="req">*</span></label>
+										<input name="customer[country]" id="country" class="form-control " type="country">
+										</li>
 										<li class="unpadding-top action-last">
 										<button class="btn" type="submit">Create an Account</button>
 										</li>
