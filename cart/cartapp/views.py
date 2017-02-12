@@ -9,3 +9,6 @@ def register(request):
 
 def contact(request):
     return render_to_response("contact.html", context_instance = RequestContext(request))
+
+def collection(request):
+    return render_to_response("collection.html", context_instance = RequestContext(request))

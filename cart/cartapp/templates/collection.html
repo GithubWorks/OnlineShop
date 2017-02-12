@@ -1,0 +1,1001 @@
+{% extends "base1.html" %}
+{% block content %}
+{% load staticfiles %}
+<div id="content-wrapper-parent">
+		<div id="content-wrapper">  
+			<!-- Content -->
+			<div id="content" class="clearfix">                
+				<div id="breadcrumb" class="breadcrumb">
+					<div itemprop="breadcrumb" class="container">
+						<div class="row">
+							<div class="col-md-24">
+								<a href="index-2.html" class="homepage-link" title="Back to the frontpage">Home</a>
+								<span>/</span>
+								<span class="page-title">Collection Full Width</span>
+							</div>
+						</div>
+					</div>
+				</div>
+                
+				<section class="content">
+					<div class="container">
+						<div class="row"> 
+							<div id="collection-content">
+								<div id="page-header">
+									<h1 id="page-title">Collection Full Width</h1>
+								</div>
+								<div class="collection-warper col-sm-24 clearfix"> 
+									<div class="collection-panner">
+										<img src="{% static 'images/collection_banner.jpg' %}" class="img-responsive" alt="">
+									</div>
+								</div>
+								<div class="collection-main-content">									
+									<div id="col-main" class="collection collection-page col-xs-24 col-sm-24">
+										<div class="container-nav clearfix">
+											<div id="options" class="container-nav clearfix">
+												<ul class="list-inline text-right">
+													<li class="grid_list">
+													<ul class="list-inline option-set hidden-xs" data-option-key="layoutMode">
+														<li data-original-title="Grid" data-option-value="fitRows" id="goGrid" class="goAction btooltip active" data-toggle="tooltip" data-placement="top" title="">
+														<span></span>
+														</li>
+														<li data-original-title="List" data-option-value="straightDown" id="goList" class="goAction btooltip" data-toggle="tooltip" data-placement="top" title="">
+														<span></span>
+														</li>
+													</ul>
+													</li>
+													<li class="sortBy">
+													<div id="sortButtonWarper" class="dropdown-toggle" data-toggle="dropdown">
+														<strong class="title-6">View as</strong>
+														<button id="sortButton">
+														<span class="name">Featured</span><i class="fa fa-caret-down"></i>
+														</button>
+														<i class="sub-dropdown1"></i>
+														<i class="sub-dropdown"></i>
+													</div>
+													<div id="sortBox" class="control-container dropdown-menu">
+														<ul id="sortForm" class="list-unstyled option-set text-left list-styled" data-option-key="sortBy">
+															<li class="sort" data-option-value="manual">Featured</li>
+															<li class="sort" data-option-value="price-ascending" data-order="asc">Price: Low to High</li>
+															<li class="sort" data-option-value="price-descending" data-order="desc">Price: High to Low</li>
+															<li class="sort" data-option-value="title-ascending" data-order="asc">A-Z</li>
+															<li class="sort" data-option-value="title-descending" data-order="desc">Z-A</li>
+															<li class="sort" data-option-value="created-ascending" data-order="asc">Oldest to Newest</li>
+															<li class="sort" data-option-value="created-descending" data-order="desc">Newest to Oldest</li>
+															<li class="sort" data-option-value="best-selling">Best Selling</li>
+														</ul>
+													</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div id="sandBox-wrapper" class="group-product-item row collection-full">
+											<ul id="sandBox" class="list-unstyled">
+												<li class="element first no_full_width" data-alpha="Curabitur cursus dignis" data-price="25900">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/1_grande.jpg' %}" class="img-responsive" alt="Curabitur cursus dignis">
+														<span class="sale_banner">
+														<span class="sale_text">Sale</span>
+														</span>
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Curabitur cursus dignis</a>
+															<span class="spr-badge" id="spr_badge_12932382113" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price_sale">$259.00</span>
+																<del class="price_compare"> $300.00</del>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="curabitur-cursus-dignis" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>
+																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Curabitur cursus dignis" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/2_119a31f2-2054-4483-93a3-841310e6bdfb_grande.jpg' %}" class="img-responsive" alt="Curabitur cursus dignis">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Curabitur cursus dignis</a>
+															<span class="spr-badge" id="spr_badge_1293239619456657" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">						
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="add-to-cart" type="submit" name="add"><i class="fa fa-shopping-cart"></i><span class="list-mode">Add to Cart</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																	<div data-href="./ajax/_product-qs.html" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																		<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																		
+																	</div>
+																</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Donec aliquam ante non" data-price="25000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/6_03a522d6-f36a-4f59-a815-bbade4d87a6e_grande.jpg' %}" class="img-responsive" alt="Donec aliquam ante non">
+														<span class="sale_banner">
+														<span class="sale_text">Sale</span>
+														</span>
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec aliquam ante non</a>
+															<span class="spr-badge" id="spr_badge_12932369314" data-rating="4.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															1 review </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price_sale">$250.00</span>
+																<del class="price_compare"> $300.00</del>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-aliquam-ante-non" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Donec condime fermentum" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_grande.jpg' %}" class="img-responsive" alt="Donec condime fermentum">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec condime fermentum</a>
+															<span class="spr-badge" id="spr_badge_12932358434" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-condime-fermentum" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element first no_full_width" data-alpha="Donec condimentum fer" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/5_a774d2ff-edcb-44b7-99e6-4b4b11d6531e_grande.jpg' %}" class="img-responsive" alt="Donec condimentum fer">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec condimentum fer</a>
+															<span class="spr-badge" id="spr_badge_12932348195" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-condimentum-fer" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Donec justo condimentum" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/6_e3262113-c6c2-4c85-b20a-56b61f779815_grande.jpg' %}" class="img-responsive" alt="Donec justo condimentum">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec justo condimentum</a>
+															<span class="spr-badge" id="spr_badge_12932327715" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-justo-condimentum" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Gravida est quis euismod" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/7_15911c75-e357-4cc1-a903-950a8ed4b779_grande.jpg' %}" class="img-responsive" alt="Gravida est quis euismod">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Gravida est quis euismod</a>
+															<span class="spr-badge" id="spr_badge_12932310434" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="gravida-est-quis-euismod" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Malesuada fames ac ante" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/8_c017028b-7029-4526-8a96-c8ca814d82f5_grande.jpg' %}" class="img-responsive" alt="Malesuada fames ac ante">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Malesuada fames ac ante</a>
+															<span class="spr-badge" id="spr_badge_12932292515" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="malesuada-fames-ac-ante" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>	
+												<li class="element first no_full_width" data-alpha="Maximus quam posuere" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/9_2246be9a-5bde-42e3-9d1e-c077a3e8928e_grande.jpg' %}" class="img-responsive" alt="Maximus quam posuere">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Maximus quam posuere</a>
+															<span class="spr-badge" id="spr_badge_12932269457" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="maximus-quam-posuere" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Curabitur cursus dignis" data-price="25900">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/1_grande.jpg' %}" class="img-responsive" alt="Curabitur cursus dignis">
+														<span class="sale_banner">
+														<span class="sale_text">Sale</span>
+														</span>
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Curabitur cursus dignis</a>
+															<span class="spr-badge" id="spr_badge_1293238211" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price_sale">$259.00</span>
+																<del class="price_compare"> $300.00</del>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="curabitur-cursus-dignis" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>
+																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Curabitur cursus dignis" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/2_119a31f2-2054-4483-93a3-841310e6bdfb_grande.jpg' %}" class="img-responsive" alt="Curabitur cursus dignis">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Curabitur cursus dignis</a>
+															<span class="spr-badge" id="spr_badge_12932396195456456" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">						
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="add-to-cart" type="submit" name="add"><i class="fa fa-shopping-cart"></i><span class="list-mode">Add to Cart</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																	<div data-href="./ajax/_product-qs.html" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																		<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																		
+																	</div>
+																</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Donec aliquam ante non" data-price="25000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/6_03a522d6-f36a-4f59-a815-bbade4d87a6e_grande.jpg' %}" class="img-responsive" alt="Donec aliquam ante non">
+														<span class="sale_banner">
+														<span class="sale_text">Sale</span>
+														</span>
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec aliquam ante non</a>
+															<span class="spr-badge" id="spr_badge_1293236931" data-rating="4.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															1 review </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price_sale">$250.00</span>
+																<del class="price_compare"> $300.00</del>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-aliquam-ante-non" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element first no_full_width" data-alpha="Donec condime fermentum" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_grande.jpg' %}" class="img-responsive" alt="Donec condime fermentum">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec condime fermentum</a>
+															<span class="spr-badge" id="spr_badge_1293235843" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-condime-fermentum" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Donec condimentum fer" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/5_a774d2ff-edcb-44b7-99e6-4b4b11d6531e_grande.jpg' %}" class="img-responsive" alt="Donec condimentum fer">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec condimentum fer</a>
+															<span class="spr-badge" id="spr_badge_1293234819" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-condimentum-fer" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Donec justo condimentum" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/6_e3262113-c6c2-4c85-b20a-56b61f779815_grande.jpg' %}" class="img-responsive" alt="Donec justo condimentum">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Donec justo condimentum</a>
+															<span class="spr-badge" id="spr_badge_1293232771" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="donec-justo-condimentum" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Gravida est quis euismod" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/7_15911c75-e357-4cc1-a903-950a8ed4b779_grande.jpg' %}" class="img-responsive" alt="Gravida est quis euismod">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Gravida est quis euismod</a>
+															<span class="spr-badge" id="spr_badge_1293231043" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="gravida-est-quis-euismod" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element first no_full_width" data-alpha="Malesuada fames ac ante" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/8_c017028b-7029-4526-8a96-c8ca814d82f5_grande.jpg' %}" class="img-responsive" alt="Malesuada fames ac ante">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Malesuada fames ac ante</a>
+															<span class="spr-badge" id="spr_badge_1293229251" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="malesuada-fames-ac-ante" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>	
+												<li class="element no_full_width" data-alpha="Maximus quam posuere" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/9_2246be9a-5bde-42e3-9d1e-c077a3e8928e_grande.jpg' %}" class="img-responsive" alt="Maximus quam posuere">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Maximus quam posuere</a>
+															<span class="spr-badge" id="spr_badge_1293226947" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="select-option" type="button" onclick="window.location.href='product.html'"><i class="fa fa-th-list" title="Select Options"></i><span class="list-mode">Select Option</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																<div data-handle="maximus-quam-posuere" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																	<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																	
+																</div>
+															</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Curabitur cursus dignis" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/2_119a31f2-2054-4483-93a3-841310e6bdfb_grande.jpg' %}" class="img-responsive" alt="Curabitur cursus dignis">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Curabitur cursus dignis</a>
+															<span class="spr-badge" id="spr_badge_1293239619" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">						
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="add-to-cart" type="submit" name="add"><i class="fa fa-shopping-cart"></i><span class="list-mode">Add to Cart</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																	<div data-href="./ajax/_product-qs.html" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																		<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																		
+																	</div>
+																</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>
+												<li class="element no_full_width" data-alpha="Curabitur cursus dignis" data-price="20000">
+													<ul class="row-container list-unstyled clearfix">
+														<li class="row-left">
+														<a href="product.html" class="container_item">
+														<img src="{% static 'images/2_119a31f2-2054-4483-93a3-841310e6bdfb_grande.jpg' %}" class="img-responsive" alt="Curabitur cursus dignis">
+														</a>
+														<div class="hbw">
+															<span class="hoverBorderWrapper"></span>
+														</div>
+														</li>
+														<li class="row-right parent-fly animMix">
+														<div class="product-content-left">
+															<a class="title-5" href="product.html">Curabitur cursus dignis</a>
+															<span class="spr-badge" id="spr_badge_1293239619454" data-rating="0.0">
+															<span class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i><i class="spr-icon spr-icon-star-empty" style=""></i></span>
+															<span class="spr-badge-caption">
+															No reviews </span>
+															</span>
+														</div>
+														<div class="product-content-right">
+															<div class="product-price">
+																<span class="price">
+																$200.00 </span>
+															</div>
+														</div>
+														<div class="list-mode-description">
+															 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis amet voluptas assumenda est, omnis dolor repellendus quis nostrum. Temporibus autem quibusdam et aut officiis debitis aut rerum dolorem necessitatibus saepe eveniet ut et neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed...
+														</div>
+														<div class="hover-appear">
+															<form action="#" method="post">						
+																<div class="effect-ajax-cart">
+																	<input name="quantity" value="1" type="hidden">
+																	<button class="add-to-cart" type="submit" name="add"><i class="fa fa-shopping-cart"></i><span class="list-mode">Add to Cart</span></button>
+																</div>
+															</form>
+															<div class="product-ajax-qs hidden-xs hidden-sm">
+																	<div data-href="./ajax/_product-qs.html" data-target="#quick-shop-modal" class="quick_shop" data-toggle="modal">
+																		<i class="fa fa-eye" title="Quick view"></i><span class="list-mode">Quick View</span>																		
+																	</div>
+																</div>
+															<a class="wish-list" href="account.html" title="wish list"><i class="fa fa-heart"></i><span class="list-mode">Add to Wishlist</span></a>
+														</div>
+														</li>
+													</ul>
+												</li>												
+											</ul>
+										</div>
+									</div>  									
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>        
+      </div>
+    </div>
+  </div>
+
+</body>
+{% endblock %}

@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^index/$', views.index),
     url(r'^register/$', views.register),
     url(r'^contact/$', views.contact),
+    url(r'^collection/$', views.collection),
 ]
