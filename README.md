@@ -1,5 +1,5 @@
 
-# Ecommerce site minimum Requirement Below Details
+# Ecommerce minimum Requirement Below Details
 
 Feature :
 
