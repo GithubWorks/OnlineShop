@@ -24,4 +24,6 @@ urlpatterns = [
     url(r'^register/$', views.register),
     url(r'^contact/$', views.contact),
     url(r'^collection/$', views.collection),
+    url(r'^about/$', views.aboutUs),
+
 ]
